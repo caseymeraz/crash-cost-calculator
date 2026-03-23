@@ -9,8 +9,22 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        bg: {
+          primary: '#0A0A0F',
+          surface: '#141420',
+          'surface-hover': '#1C1C2E',
+        },
+        border: '#2A2A3C',
+        'text-primary': '#F0F0F5',
+        'text-secondary': '#8888A0',
+        accent: {
+          green: '#4ADE80',
+          cyan: '#22D3EE',
+          red: '#F87171',
+        },
+      },
+      fontFamily: {
+        mono: ['GeistMono', 'JetBrains Mono', 'monospace'],
       },
     },
   },
